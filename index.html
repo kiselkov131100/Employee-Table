@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Employee Table</title>
+  </head>
+  <body>
+    <div class="table-wrap">
+      <form id="form">
+        <div class="inputs">
+          <input class="input-name" id="inputName" placeholder="name:" />
+          <input class="input-born" id="inputBorn" placeholder="year of born" />
+          <input class="input-date" id="inputDate" type="date" />
+          <input class="input-wage" id="inputWage" placeholder="wage" />
+        </div>
+        <button id="addUserButton">ADD USER</button>
+      </form>
+
+      <p id="count">NUMBER OF EMPLOYEES:</p>
+      <p id="sum">SUM $:</p>
+
+      <table>
+        <tr>
+          <th></th>
+          <th>NAME</th>
+          <th>DATE OF BORN</th>
+          <th>EMPLOYMENT DATE</th>
+          <th>WAGE $</th>
+        </tr>
+        <tr>
+          <td>1</td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+        </tr>
+      </table>
+
+      <button id="delete">DELETE</button>
+      <button id="btnSum">SUMMA $</button>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
