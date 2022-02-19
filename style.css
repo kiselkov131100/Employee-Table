@@ -61,3 +61,8 @@ table td {
     border-right: 1px solid;
     padding: 5px;
 }
+
+.select-check {
+    transform: scale(0.5);
+    width: 90px;
+}

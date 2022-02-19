@@ -12,34 +12,30 @@
       <form id="form">
         <div class="inputs">
           <input class="input-name" id="inputName" placeholder="name:" />
-          <input class="input-born" id="inputBorn" placeholder="year of born" />
+          <input class="input-born" id="inputBorn" placeholder="date of born" />
           <input class="input-date" id="inputDate" type="date" />
           <input class="input-wage" id="inputWage" placeholder="wage" />
         </div>
-        <button id="addUserButton">ADD USER</button>
+        <button id="addButton">ADD USER</button>
       </form>
 
-      <p id="count">NUMBER OF EMPLOYEES:</p>
+      <p id="count">NUMBER OF EMPLOYEES: 0</p>
       <p id="sum">SUM $:</p>
 
-      <table>
-        <tr>
-          <th></th>
-          <th>NAME</th>
-          <th>DATE OF BORN</th>
-          <th>EMPLOYMENT DATE</th>
-          <th>WAGE $</th>
-        </tr>
-        <tr>
-          <td>1</td>
-          <td></td>
-          <td></td>
-          <td></td>
-          <td></td>
-        </tr>
+      <table id="table">
+        <thead>
+          <tr>
+            <th style="width: 90px">SELECT</th>
+            <th style="width: 350px">NAME</th>
+            <th style="width: 200px">DATE OF BORN</th>
+            <th style="width: 200px">EMPLOYMENT DATE</th>
+            <th style="width: 120px">WAGE $</th>
+          </tr>
+        </thead>
+        <tbody></tbody>
       </table>
 
-      <button id="delete">DELETE</button>
+      <button id="btnDelete">DELETE</button>
       <button id="btnSum">SUMMA $</button>
     </div>
 
